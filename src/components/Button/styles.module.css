@@ -1,0 +1,75 @@
+.button {
+    align-items: center;
+    appearance: none;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    background-color: var(--bg-primary-color);
+    background-image: var(--bg-img-primary-color);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button:active,
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    background-position: -20px -20px;
+}
+
+
+.btn--primary {
+    background: var(--bg-img-primary-color);
+}
+
+.btn--secondary {
+    background-color: var(--bg-secondary-color);
+    background-image: var(--bg-img-secondary-color);
+}
+
+.btn--success {
+    background-color: var(--bg-success-color);
+    background-image: var(--bg-img-success-color);
+}
+
+.btn--danger {
+    background-color: var(--bg-danger-color);
+    background-image: var(--bg-img-danger-color);
+}
+
+.btn--S {
+    width: 100px;
+}
+
+.btn--M {
+    width: 140px;
+}
+
+.btn--L {
+    width: 160px;
+}
+
+.borderRadius {
+    border-radius: 0;
+}
