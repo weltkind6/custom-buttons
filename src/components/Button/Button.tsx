@@ -13,7 +13,7 @@ interface IProps {
 const Button = ({children, onClick, color, size, borderRadius, disabled}: IProps) => {
 
     return (
-        <button 
+        <button
         className={`
         ${styles.button} 
         ${styles[`btn--${color}`]}
