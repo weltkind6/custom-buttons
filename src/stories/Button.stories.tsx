@@ -11,39 +11,14 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = {
-    name: 'Primary',
-    render: () => <Button
-        color='primary'
-        children='primary'
-        size="S"
-    />
+    args: {
+        color: 'primary',
+        children: 'Button'
+    },
 };
 
 
-export const Secondary: Story = {
-    name: 'Secondary',
-    render: () => <Button
-        color='secondary'
-        children='secondary'
-        size="M"
-    />
-};
 
-export const Success: Story = {
-    name: 'Success',
-    render: () => <Button
-        color='success'
-        children='success'
-        size="L"
-    />
-};
 
-export const Danger: Story = {
-    name: 'Danger',
-    render: () => <Button
-        color='danger'
-        children='danger'
-    />
-};
 
 
